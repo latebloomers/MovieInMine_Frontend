@@ -138,18 +138,14 @@ const BrandWrapper = styled.div`
   // position: relative;
   // margin: 100px 100px
   align-items: center;
-  // height: inherit;
   display: flex;
-  // align-items: top;
   // align-text: center;
   align-self: center;
 `;
 
 const Brand = styled(Link)`
   // position: absolute;
-  // height: inherit;
   // display: flex;
-  // align-items: center;
   text-decoration: none;
 `;
 
