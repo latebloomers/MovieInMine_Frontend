@@ -44,7 +44,7 @@ interface State {
   showPassword: boolean;
 }
 
-const Login = () => {
+const Signin = () => {
   const [values, setValues] = React.useState<State>({
     email: "string",
     password: "",
@@ -292,4 +292,4 @@ const LinkSignup = styled(Link)`
   }
 `;
 
-export default Login;
+export default Signin;

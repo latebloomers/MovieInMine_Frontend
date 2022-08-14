@@ -55,7 +55,8 @@ const Header = () => {
             <PageLink to="/article">영화</PageLink>
             <PageLink to="/about">추천</PageLink>
             <PageLink to="/users/sign_in">시네마컵</PageLink>
-            <PageLink to="/users/login">로그인</PageLink>
+            <PageLink to="/users/signin">로그인</PageLink>
+            <PageLink to="/users/signup">회원가입</PageLink>
             <Button variant="contained">문의하기</Button>
 
 
@@ -71,7 +72,8 @@ const Header = () => {
             <PageLinkMobile to="/article">영화</PageLinkMobile>
             <PageLinkMobile to="/about">추천</PageLinkMobile>
             <PageLinkMobile to="/users/sign_in">시네마컵</PageLinkMobile>
-            <PageLinkMobile to="/users/login">로그인</PageLinkMobile>
+            <PageLinkMobile to="/users/signin">로그인</PageLinkMobile>
+            <PageLinkMobile to="/users/signup">회원가입</PageLinkMobile>
             <Button variant="contained">문의하기</Button>
         </NavMobile>
       </Container>
