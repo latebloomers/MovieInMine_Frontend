@@ -55,7 +55,7 @@ const Header = () => {
             <PageLink to="/article">영화</PageLink>
             <PageLink to="/about">추천</PageLink>
             <PageLink to="/users/sign_in">시네마컵</PageLink>
-            <PageLink to="/users/sign_in">로그인</PageLink>
+            <PageLink to="/users/login">로그인</PageLink>
             <Button variant="contained">문의하기</Button>
 
 
@@ -71,35 +71,10 @@ const Header = () => {
             <PageLinkMobile to="/article">영화</PageLinkMobile>
             <PageLinkMobile to="/about">추천</PageLinkMobile>
             <PageLinkMobile to="/users/sign_in">시네마컵</PageLinkMobile>
-            <PageLinkMobile to="/users/sign_in">로그인</PageLinkMobile>
+            <PageLinkMobile to="/users/login">로그인</PageLinkMobile>
             <Button variant="contained">문의하기</Button>
         </NavMobile>
       </Container>
-      
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-      
-
-
-
-      <Test>asd
-        {/* <h4 style={{ color:'#000000' }}>asd</h4> */}
-      </Test>
-        <Link to="/">
-          <button>Home</button>
-        </Link>
-        <Link to="/article">
-          <button>article</button>
-        </Link>
-        <Link to="/about">
-          <button>About</button>
-        </Link>
-        <Link to="/movie">
-          <button>Movie</button>
-        </Link>
-        <Link to="/cnemacup">
-          <button>CnemaCupPage</button>
-        </Link>
-      {/* <Button variant="contained">Hello World</Button> */}
     </>
   );
 }
@@ -107,7 +82,7 @@ const Header = () => {
 export default Header;
 
 const Container = styled.header`
-  position: absolute;
+  position: stiky;
   align-self: center;
   top: 0;
   left: 0;
