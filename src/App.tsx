@@ -26,33 +26,6 @@ const App = () => {
       </div>
     </div>
 
-    // <BrowserRouter>
-    // <Routes>
-    //   <Route path='/' element={<HomePage />} />
-    //   <Route path='/article' element={<ArticlePage />} />
-    //   <Route path='/about' element={<AboutPage />} />
-    // </Routes>
-    // </BrowserRouter>
-
-    // <Header></Header>
-    // <div>
-    //   <HomePage></HomePage>
-    //   <ArticlePage></ArticlePage>
-    // </div>
-      // <Routes>
-      //   <Route path="/" element={<HomePage />} />
-      // </Routes>
-    // <div>
-    // <Header></Header>
-      
-    //   </div>
-  //   <Routes>
-  //   <Route path="/" element={<Header/>} >
-  //     <Route path="/article" element={<ArticlePage/>} />
-  //     <Route path="/users" element={<Header />} />
-  //   </Route>
-  // </Routes>
-    // <div></div>
   );
 }
 
